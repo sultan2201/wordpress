@@ -1,0 +1,41 @@
+/*
+Theme Name: ClubBlocks
+Theme URI: https://thewpclub.com/clubblocks-wordpress-theme/
+Author: The WP Club
+Author URI: https://thewpclub.com/
+Description: A Free WordPress Blog / Magazine / Personal / Writers. ClubBlocks is a clean minimal and responsive WordPress theme well suited for food, fashion, writers, travel, health, sports, fitness, business, finance, portfolio, design, art, photography, personal or any other creative websites and blogs.
+Requires at least: 6.0
+Tested up to: 6.4
+Requires PHP: 7.0
+Version: 1.0.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: clubblocks
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, blog, portfolio, news
+*/
+
+/* Default */
+.site-header {
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+}
+
+.wp-block-site-title a {
+    text-decoration: none;
+}
+
+.wp-block-post-content {
+    margin-top: 0;
+}
+
+/* Query loop post */
+.wp-block-query .wp-block-post-featured-image {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.wp-block-query .wp-block-post-featured-image img {
+    height: 350px;
+    object-fit: cover;
+}
